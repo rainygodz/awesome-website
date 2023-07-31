@@ -83,7 +83,7 @@ header {
   flex-direction: column;
   align-items: center;
   gap: 60px;
-  padding: 60px 0 120px 0;
+  padding: 70px 0 140px 0;
 }
 
 .info {
@@ -113,4 +113,30 @@ header {
   width: 200px;
   height: 200px;
   border-radius: 10%;
+}
+
+.quote-container {
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  padding: 140px 0;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1F2937;
+  align-self: center;
+}
+
+.quote-author {
+  align-self: flex-end;
+  font-weight: 700;
+  font-size: 24px;
 }
