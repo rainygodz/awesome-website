@@ -66,6 +66,14 @@ header {
   font-weight: 700;
   border-radius: 9px;
   padding: 8px 32px;
+  cursor: pointer;
+
+
+  transition: background-color 0.2s linear;
+}
+
+.sign-up-btn:hover {
+  background-color: #71a0ed;
 }
 
 .hero-image {
