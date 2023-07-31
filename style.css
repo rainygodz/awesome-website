@@ -77,3 +77,40 @@ header {
   width: 700px;
   height: auto;
 }
+
+.information-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  padding: 60px 0 120px 0;
+}
+
+.info {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1F2937;
+}
+
+.info-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
+}
+
+.info-card {
+  flex-basis: 200px;
+}
+
+.info-text {
+  text-align: center;
+  color: #474a4e;
+  margin-top: 5px;
+}
+
+.info-card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10%;
+}
