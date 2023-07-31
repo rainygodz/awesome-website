@@ -8,7 +8,7 @@ header {
   display: flex;
   justify-content: space-between;
   background-color: #1F2937;
-  padding: 15px 150px;
+  padding: 15px 200px;
 }
 
 .navbar a {
@@ -27,4 +27,53 @@ header {
   display: flex;
   gap: 15px;
   list-style-type: none;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1F2937;
+  padding: 100px 200px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  flex-basis: 500px;
+}
+
+.hero-main {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.hero-text {
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.btn {
+  flex: 0;
+}
+
+.sign-up-btn {
+  background-color: #3882F6;
+  border: none;
+  color: #F9FAF8;
+  font-weight: 700;
+  border-radius: 9px;
+  padding: 8px 32px;
+}
+
+.hero-image {
+  display: flex;
+  align-items: center;
+}
+
+.hero-image img {
+  width: 700px;
+  height: auto;
 }
